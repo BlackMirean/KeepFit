@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="BottomNavigationViewStyle" parent="Widget.MaterialComponents.BottomNavigationView">
+
+        <item name="itemIconTint">@android:color/white</item> <!-- 设置图标颜色为白色 -->
+        <item name="backgroundTint">@android:color/black</item>
+        <item name="itemTextColor">@android:color/white</item> <!-- 设置文本颜色为白色 -->
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:paddingRight">20dp</item>
+        <item name="itemIconPadding">30dp</item>
+        <item name="labelVisibilityMode">selected</item>
+        <item name="itemIconSize">30dp</item>
+
+
+    </style>
+
+</resources>

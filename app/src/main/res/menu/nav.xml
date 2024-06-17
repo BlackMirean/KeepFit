@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <item
+        android:id="@+id/train"
+        android:title="运动"
+        android:icon="@drawable/nvfitness"
+        />
+
+    <item
+        android:id="@+id/record"
+        android:title="计划"
+        android:icon="@drawable/nvnote"
+        />
+
+    <item
+        android:id="@+id/home"
+        android:title="首页"
+        android:icon="@drawable/nvhome"
+        />
+
+    <item
+        android:id="@+id/user"
+        android:title="用户"
+        android:icon="@drawable/nvuser"
+        />
+
+</menu>

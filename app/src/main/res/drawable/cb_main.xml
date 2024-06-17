@@ -1,0 +1,17 @@
+<!-- checkbox_rounded.xml -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="true">
+        <shape android:shape="oval">
+            <stroke android:width="1dp" android:color="#FFFFFF"/>
+            <solid android:color="#FFFFFF" /> <!-- 设置选中状态下的背景为白色 -->
+            <size android:width="20dp" android:height="20dp" /> <!-- 设置大小，确保是正方形 -->
+        </shape>
+    </item>
+    <item android:state_checked="false">
+        <shape android:shape="oval">
+            <stroke android:width="1dp" android:color="#FFFFFF"/>
+            <solid android:color="#00FFFFFF" /> <!-- 设置未选中状态下的背景为透明白色 -->
+            <size android:width="20dp" android:height="20dp" /> <!-- 设置大小，确保是正方形 -->
+        </shape>
+    </item>
+</selector>

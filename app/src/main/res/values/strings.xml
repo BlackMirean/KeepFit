@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">KeepFit</string>
+    <string name="LbILogin">用户登录</string>
+    <string name="LbILoginByEmail">邮箱地址登陆</string>
+    <string name="LbILoginByUserName">用户名登陆</string>
+    <string name="LbIPassword">密码</string>
+    <string name="LbIUserName">用户名/邮箱</string>
+    <string name="LbIBtnLogin">登陆</string>
+    <string name="LbIRememberMe">记住登录状态</string>
+    <string name="Notice">提示</string>
+    <string name="RegOption">注册选项</string>
+    <string name="RegByUserName">用户名注册</string>
+    <string name="RegByEmail">用邮箱注册</string>
+    <string name="RegByMobile">手机号注册</string>
+    <string name="Reg">注册</string>
+    <string name="CbLicense">同意接受APP用户协议</string>
+    <string name="BtnConfirm">确认</string>
+    <string name="TxtUserLicense">APP用户协议\n请您本产品之前，请务必仔细阅读并理解《用户许可使用协议》（以下简称“本协议”）中规定的多有权利和限制。\n我们一向尊重并会严格保护用户在使用本产品时的合法权益（包括用户隐私、用户数据等）不受到任何侵犯。\n本协议（包括本文最后部分的隐私政策）是用户（包括通过各种合法途径获取到本产品的自然人、法人或其他组织机构，以下简称“用户”或“您”）与我们之间针对本产品相关事项最终的、完整的且排他的协议，并取代、合并之前的当事人之间关于上述事项的讨论和协议。\n本协议将对用户使用本产品的行为产生法律约束力，您已承诺和保证有权利和能力订立本协议。用户开始使用本产品将视为已经接受本协议，请认真阅读并理解本协议中各种条款，包括免除和限制我们的免责条款和对用户的权利限制（未成年人审阅时应由法定监护人陪同），如果您不能接受本协议中的全部条款，请勿开始使用本产品。\n使用账户，您必须承诺和保证：\n您使用本产品的行为必须合法\n本产品将会依据本协议“修改和终止”的规定保留或终止您的账户。您必须承诺对您的登录信息保密、不被其他人获取与使用，并且对您在本账户下的所有行为负责。您必须将任何有可能触犯法律的、未授权使用或怀疑为未授权使用的行为在第一时间通知本产品。本产品不对您因未能遵守上述要求而造成的损失承担法律责任。</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

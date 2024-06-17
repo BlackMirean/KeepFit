@@ -1,0 +1,7 @@
+<!-- rounded_edittext.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#FFF1F1" />
+    <stroke android:width="5dp" android:color="#000000"/>
+    <corners android:radius="40dp" /> <!-- 设置圆角半径，调整数值以增加或减小圆角弧度 -->
+</shape>
+

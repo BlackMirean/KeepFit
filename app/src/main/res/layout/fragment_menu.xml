@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".MenuFragment">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_weight="1"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/headerLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="20dp"
+            android:clickable="true"
+            >
+
+            <androidx.cardview.widget.CardView
+                android:layout_marginLeft="10dp"
+                android:layout_width="60dp"
+                app:cardCornerRadius="40dp"
+                android:layout_height="60dp">
+
+                <ImageView
+                    android:id="@+id/userImg"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/custom"
+                    />
+            </androidx.cardview.widget.CardView>
+            <TextView
+                android:id="@+id/greetingText"
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hello, Tzz"
+                android:textSize="20sp"
+                android:layout_marginStart="16dp"/>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_weight="10000"
+            android:gravity="right"
+            android:layout_marginRight="20dp"
+            android:layout_gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/menu_about"
+                android:layout_marginLeft="50dp"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/aboutapp"
+                    android:layout_gravity="center"
+                    />
+                <TextView
+                    android:layout_marginTop="2dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="13sp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:text="关于APP"
+                    />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ToggleButton
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:checked="false"
+                android:id="@+id/toggleButtonqs"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:textOn="全身"
+                android:textOff="全身"
+                android:textColor="@color/txtcolor"
+                android:background="@drawable/menu_btnstyle"
+                android:textSize="15sp"
+                />
+
+            <ToggleButton
+                android:layout_margin="5dp"
+                android:checked="false"
+                android:id="@+id/toggleButtonfs"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:textOn="放松"
+                android:textOff="放松"
+                android:textColor="@color/txtcolor"
+                android:background="@drawable/menu_btnstyle"
+                android:textSize="15sp"
+                />
+
+            <ToggleButton
+                android:layout_margin="5dp"
+                android:checked="false"
+                android:id="@+id/toggleButtonyb"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:textOn="腰部"
+                android:textOff="腰部"
+                android:textColor="@color/txtcolor"
+                android:background="@drawable/menu_btnstyle"
+                android:textSize="15sp"
+                />
+
+            <ToggleButton
+                android:layout_margin="5dp"
+                android:checked="false"
+                android:id="@+id/toggleButtonbb"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:textOn="背部"
+                android:textOff="背部"
+                android:textColor="@color/txtcolor"
+                android:background="@drawable/menu_btnstyle"
+                android:textSize="15sp"
+                />
+
+            <ToggleButton
+                android:layout_margin="5dp"
+                android:checked="false"
+                android:id="@+id/toggleButtontb"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:textOn="腿部"
+                android:textOff="腿部"
+                android:textColor="@color/txtcolor"
+                android:background="@drawable/menu_btnstyle"
+                android:textSize="15sp"
+                />
+
+            <ToggleButton
+                android:layout_margin="5dp"
+                android:checked="false"
+                android:id="@+id/toggleButtonfb"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:textOn="腹部"
+                android:textOff="腹部"
+                android:textColor="@color/txtcolor"
+                android:background="@drawable/menu_btnstyle"
+                android:textSize="15sp"
+                />
+
+            <ToggleButton
+                android:layout_margin="5dp"
+                android:checked="false"
+                android:id="@+id/toggleButtonxb"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:textOn="胸部"
+                android:textOff="胸部"
+                android:textColor="@color/txtcolor"
+                android:background="@drawable/menu_btnstyle"
+                android:textSize="15sp"
+                />
+
+            <ToggleButton
+                android:layout_margin="5dp"
+                android:checked="false"
+                android:id="@+id/toggleButtonsb"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:textOn="手臂"
+                android:textOff="手臂"
+                android:textColor="@color/txtcolor"
+                android:background="@drawable/menu_btnstyle"
+                android:textSize="15sp"
+                />
+
+            <ToggleButton
+                android:layout_margin="5dp"
+                android:checked="false"
+                android:id="@+id/toggleButtonjb"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:textOn="肩部"
+                android:textOff="肩部"
+                android:textColor="@color/txtcolor"
+                android:background="@drawable/menu_btnstyle"
+                android:textSize="15sp"
+                />
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+
+    <LinearLayout
+        android:id="@+id/menu_mid"
+        android:layout_width="match_parent"
+        android:layout_height="380dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/menu_middle"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:paddingLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:text="Loose\nboody fat"
+                android:textColor="@color/black"
+                android:textSize="34sp"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                />
+
+            <TextView
+                android:id="@+id/level"
+                android:layout_marginRight="45dp"
+                android:layout_weight="3"
+                android:layout_width="95dp"
+                android:layout_height="35dp"
+                android:text="low level"
+                android:textColor="@color/white"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:background="@drawable/menu_level"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/menu_middle3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:paddingLeft="20dp"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_gravity="center_vertical"
+
+                android:layout_marginRight="200dp"
+                android:layout_marginLeft="130dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/menu_middleimg"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                >
+                <ImageView
+                    android:paddingLeft="40dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/alarm"
+                />
+                <TextView
+                    android:id="@+id/timeState"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginRight="20dp"
+                    android:text="10 minutes"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    />
+            </LinearLayout>
+            <TextView
+                android:id="@+id/menuStart"
+                android:paddingLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:text="Start"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/menu_mid2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/menu_middle2"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <com.rgzn.zt.AttendanceRingView
+                android:id="@+id/attendanceRingView"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                />
+            <TextView
+                android:id="@+id/menu_tvCalc"
+                android:layout_marginRight="20dp"
+                android:layout_weight="3"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Great!\nYou've lost 75% of your daily calorie intake"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
